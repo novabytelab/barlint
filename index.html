@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Barlint</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1b1f24; --muted: #5b6470; --rule: #e3e6ea; --accent: #0b5fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111418; --fg: #e8eaed; --muted: #a0a7b1; --rule: #2a2f36; --accent: #7aa7ff; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0 16px; }
+  main { max-width: 720px; margin: 40px auto 64px; }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; border-top: 1px solid var(--rule); padding-top: 1.25rem; }
+  .meta { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+  th { color: var(--muted); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy</h1>
+<p class="meta">Barlint: 2D Barcode Verifier (Android app <code>in.novabytelab.barlint</code>)<br>
+Publisher: NovaByte Lab · Effective date: 16 October 2026</p>
+
+<p><strong>In short:</strong> the app has no account, no ads, no analytics and no tracking.
+Everything you scan is processed and stored on your phone. We (NovaByte Lab) do not receive
+any of your data. The app only goes online when you ask it to, as described below.</p>
+
+<h2>What the app processes on your phone</h2>
+<table>
+  <tr><th>Data</th><th>Why</th><th>Where it stays</th></tr>
+  <tr><td>Camera images</td><td>To read barcodes. Frames are decoded in memory and not saved.</td><td>Not stored</td></tr>
+  <tr><td>A photo you choose to scan</td><td>To read a barcode from an existing picture.</td><td>Read once, not copied</td></tr>
+  <tr><td>Scan history (decoded barcode data, result, date and time)</td><td>So you can review past checks and export them.</td><td>On your phone</td></tr>
+  <tr><td>Report details you type (company, operator, site, custom rule profiles)</td><td>Printed on your PDF certificates.</td><td>On your phone</td></tr>
+  <tr><td>Purchase details (Google Play order ID, date, price, or Enterprise activation key) and the company details you type on the expense receipt screen</td><td>To unlock Pro offline and to create expense receipts.</td><td>On your phone</td></tr>
+</table>
+<p>Uninstalling the app, or clearing its storage in Android settings, deletes all of this.
+You can also clear the history inside the app.</p>
+
+<h2>When the app connects to the internet</h2>
+<ul>
+  <li><strong>Resolver check (only when you tap it).</strong> The app sends a request to the
+  web address encoded in the GS1 Digital Link you scanned, to see whether the link works. That
+  request goes directly to the brand or service that owns the link, includes the product
+  identifiers in the link, and reveals your device's IP address to that server, as any web
+  request does. Their privacy policy applies to that request.</li>
+  <li><strong>GS1 rule updates (only when you tap it).</strong> The app downloads the public GS1
+  Barcode Syntax Dictionary file from GitHub (<code>raw.githubusercontent.com</code>). No
+  personal data is sent; GitHub sees your IP address.</li>
+  <li><strong>Purchases.</strong> Subscriptions are bought, renewed and cancelled through
+  Google Play. Google processes the payment under the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>; we do not receive your
+  payment details. The app reads your purchase status from Google Play on your phone.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>We do not sell or share your data, because we never receive it. When you export a PDF
+certificate, a CSV file or an expense receipt, the app hands the file to the Android share
+sheet and you choose where it goes.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Camera</strong>: to scan barcodes.</li>
+  <li><strong>Internet</strong>: only for the resolver check, GS1 rule updates and Google Play
+  billing described above.</li>
+</ul>
+
+<h2>Children</h2>
+<p>The app is a business tool and is not directed at children under 13. It does not knowingly
+collect personal information from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we will update this page and its effective date. Material changes
+will be noted in the app's release notes.</p>
+
+<h2>Contact</h2>
+<p>NovaByte Lab · <a href="mailto:contact@novabytelab.in">contact@novabytelab.in</a></p>
+</main>
+</body>
+</html>
